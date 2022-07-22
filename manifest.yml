@@ -1,0 +1,22 @@
+display_information:
+  name: slackbot-basic
+features:
+  bot_user:
+    display_name: slackbot-basic
+    always_online: false
+  slash_commands:
+    - command: /hello
+      url: <your-domain-url>/slack/command
+      description: Hello world
+      should_escape: false
+oauth_config:
+  redirect_urls:
+    - <your-domain-url>/slack/oauth_redirect
+  scopes:
+    bot:
+      - chat:write
+      - commands
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false
