@@ -26,10 +26,6 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-# Nest REST API Boilerplate
-
-Boilerplate/Generator/Starter Project for building Slack application using NestJS and MongoDB
-
 ## Getting Started
 
 ## Install dependencies
